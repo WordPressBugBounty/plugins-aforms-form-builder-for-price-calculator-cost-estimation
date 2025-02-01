@@ -3,9 +3,9 @@ Contributors: vividcolorsjp
 License: MIT
 Tags: price calculator, estimation, cost estimation, estimation simulation, wizard, form builder, contact, contact form, form, feedback, conditional logic
 Requires at least: 4.6
-Tested up to: 6.5
+Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 2.2.7
+Stable tag: 2.2.8
 
 Form builder for Cost estimation and Custom order.
 
@@ -77,6 +77,10 @@ You can find some guides on [AForm's official website](https://a-forms.com/en/).
 If you have any problems or feature requests for this plugin, also requests for installation or customization, please feel free to [contact us](https://a-forms.com/en/contact/).
 
 == Changelog ==
+
+= 2.2.8 =
+* Fixed a bug that occurred when converting HTML
+* Add WordPress6.7 support 
 
 = 2.2.7 =
 * Fixed a vulnerability that could display the full path when a specific php file was accessed

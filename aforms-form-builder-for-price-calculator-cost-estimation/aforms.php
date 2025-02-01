@@ -3,7 +3,7 @@
   Plugin Name: AForms -- Form Builder for Price Calculator & Cost Estimation
   Plugin URI:
   Description: Form builder for Cost estimation and custom order. If you have any problems or feature requests for this plugin, please feel free to <a href="https://a-forms.com/en/contact/" target="_blank">contact us</a>.
-  Version: 2.2.7
+  Version: 2.2.8
   Author: Vivid Colors, inc.
   Author URI: https://a-forms.com/en/
   License: MIT
@@ -17,7 +17,7 @@ AFormsWrap::start();
 
 class AFormsWrap 
 {
-    const VERSION = '2.2.7';
+    const VERSION = '2.2.8';
     protected static $singleton;
     
     protected $plugin;

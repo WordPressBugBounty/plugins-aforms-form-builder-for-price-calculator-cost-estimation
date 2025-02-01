@@ -84,7 +84,7 @@ class FormProcessor
 
         } else if (is_object($vdom)) {
             $attrs = '';
-            foreach (get_object_vars($vdom->attributes) as $name => $value) {
+            foreach (get_object_vars((object)($vdom->attributes)) as $name => $value) {
                 if (is_bool($value)) {
                     if ($value) {
                         $attrs .= sprintf(' %s', $name);
@@ -116,7 +116,7 @@ class FormProcessor
                 $attrMap = new \stdClass();
                 foreach ($node->attributes as $attr) {
                     if ($attr->name == $attr->value) {
-                        $attrMap[$attr->name] = true;
+                        $attrMap->{$attr->name} = true;
                     } else {
                         $attrMap->{$attr->name} = $attr->value;
                     }

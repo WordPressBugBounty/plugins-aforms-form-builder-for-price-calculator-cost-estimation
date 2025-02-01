@@ -3,9 +3,9 @@ Contributors: vividcolorsjp
 License: MIT
 Tags: price calculator, estimation, cost estimation, estimation simulation, wizard, form builder, contact, contact form, form, feedback, conditional logic
 Requires at least: 4.6
-Tested up to: 6.5
+Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 2.2.7
+Stable tag: 2.2.8
 
 注文カスタマイズ・料金シミュレーションのためのフォームビルダー。
 
@@ -77,6 +77,10 @@ AFormsは下記の言語をサポートしています。翻訳してくれた�
 プラグインへのご意見やご要望、組み込みやカスタマイズに関するご依頼がありましたら、お気軽に[お問い合わせ](https://a-forms.com/ja/contact/)ください。
 
 == Changelog ==
+
+= 2.2.8 =
+* HTMLの変換時に起こる不具合を修正
+* WordPress6.7をサポート
 
 = 2.2.7 =
 * 特定のphpファイルにアクセスされた場合にフルパスを表示してしまう脆弱性を修正
